@@ -12,5 +12,7 @@ def setMatrix():
         a = [int(x) for x in input().split()]
         data.append(a)
     matrix = Matrix(rows, columns, data)
+    print()
     matrix.printMatrix()
+    print()
     return matrix
