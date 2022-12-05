@@ -9,3 +9,4 @@ def menu(isMatrixA, isMatrixB, isResult):
         print("6 for matrix multiplication(A*B)")
     if isResult != False:
         print("7 to insert result in A")
+    print("-1 to end")

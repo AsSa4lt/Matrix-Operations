@@ -1,5 +1,3 @@
-import PySimpleGUI as sg
-
 import DeterminantofaMatrix
 import MatrixAddition
 import MatrixInverse
@@ -71,4 +69,6 @@ while True:
                 print()
             else:
                 print("You need to get result")
+        case -1:
+            break
 
